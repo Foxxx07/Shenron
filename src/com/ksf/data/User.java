@@ -18,6 +18,7 @@ public class User {
         this.userMail = userMail;
     }
 
+
    /* public ArrayList<Mail> getMails() {
         return mails;
     }
