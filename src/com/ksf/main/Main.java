@@ -13,7 +13,8 @@ public class Main {
         String directory = args[0];
         try {
             List<Path> list = Files.find(Paths.get(directory),999,(p, bfa) -> bfa.isRegularFile()).collect(Collectors.toList());
-            list.forEach(System.out::println);
+            //HashMap<Path,>
+            
         } catch (IOException e) {
             throw new Error(e.getMessage());
         }
